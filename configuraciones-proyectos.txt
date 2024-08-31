@@ -1,0 +1,43 @@
+---ANGULAR--- practicaDB1 base de datos
+node app.js
+ng serve
+Api: http://localhost:3000/api/auth/login
+pagina: http://localhost:4200/login
+
+
+
+---LARAVEL--- practicaDB base de datos
+php artisan encrypt:passwords
+php artisan serve
+Api: http://localhost:8000/login
+pagina: http://localhost:8000/login
+
+
+---ANGULAR Y LARAVEL--- practicaDB4
+ng serve
+php artisan serve
+(angular)pagina: http://localhost:4200/login
+(laravel)Api: http://127.0.0.1:8000/api/login
+
+---KOTLIN ANDROID STUDIO--- practicaDB2
+node app.js
+En la API cambia la ip al de tu internet en el archivo MainActivity.kt
+En la API cambia la ip al de tu internet en el archivo res/xml/network_security_config.xml
+
+
+# Por ejemplo, para instalar Laravel 9.x
+composer create-project laravel/laravel MiProyecto3 "9.*"
+php artisan --version
+
+php artisan tinker
+echo bcrypt('123');
+UPDATE persona SET clave = '$2y$10$eImiTXuWVxfM37uY4JANjQ=='; -- Reemplaza esto con tu hash bcrypt generado
+
+http://localhost:8000/login
+{
+  "correo": "alan@gmail",
+  "clave": "123"
+}
+
+
+
